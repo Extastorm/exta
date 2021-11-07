@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U schbot')
+os.system('pip install -U oimbot')
 os.system('clear')
 
-import schbot
+import oimbot
 
-client = schbot.PartyBot(
+client = oimbot.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
