@@ -22,7 +22,7 @@ os.system('clear')
 
 import TGDbot
 
-client = TDGbot.PartyBot(
+client = TGDbot.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
